@@ -407,26 +407,3 @@ while True:
         for i in range(0, len(y)):
             differenceScore.append(y[i]/FitnessGraph[i])
         
-        plt.plot(x, differenceScore)
-
-        plt.xlabel('Itteration') 
-
-        plt.ylabel('Fitness') 
-   
-        plt.title('Algorithmic Fitness') 
-  
-        plt.show()
-        
-        
-            
-        
-        
-                
-            
-            
-                
-                
-            
-        
-    
-
